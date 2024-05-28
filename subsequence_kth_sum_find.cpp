@@ -15,7 +15,6 @@ void kthSumfind(ll index, vector<ll> v, ll a[], ll n, ll sum, ll k){
         }
         return;
     }
-
     v.push_back(a[index]);
     sum+=a[index];
     kthSumfind(index+1, v, a, n, sum, k);
